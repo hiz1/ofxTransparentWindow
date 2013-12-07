@@ -6,9 +6,9 @@ void testApp::setup(){
 	
 	font.loadFont("fonts/Pigiarniq Heavy.ttf", 120);
 
-	transparent.afterMainSetup(ofxTransparentWindow::NORMAL);
+	transparent.afterMainSetup(ofxTransparentWindow::ALWAYSONTOP);
 	
-	ofSetFullscreen(true);
+//	ofSetFullscreen(true);
 }
 
 //--------------------------------------------------------------

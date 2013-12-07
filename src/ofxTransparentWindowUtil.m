@@ -52,6 +52,8 @@ void removeWindowBarAndTitle(int transparentType) {
 		[window setLevel: kCGDesktopWindowLevel];
 	}else if (transparentType == 2) {
 		[window setLevel: kCGNormalWindowLevel];
+	}else if (transparentType == 3) {
+		[window setLevel: kCGStatusWindowLevel];
 	}else {
 		[window setLevel: kCGNormalWindowLevel];
 	}

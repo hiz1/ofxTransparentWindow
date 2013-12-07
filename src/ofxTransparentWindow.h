@@ -15,7 +15,8 @@ class ofxTransparentWindow {
 public:
 	static const int SCREENSAVER = 0;
 	static const int DESKTOPBG = 1;
-	static const int NORMAL = 2;	
+	static const int NORMAL = 2;
+    static const int ALWAYSONTOP = 3;
 	
 	void afterMainSetup(int transparentType = 2);
 	void update();
